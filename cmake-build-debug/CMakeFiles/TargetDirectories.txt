@@ -1,0 +1,3 @@
+C:/Users/IONI RODAS/CLionProjects/Parcial2ArchivosIoniRodas/cmake-build-debug/CMakeFiles/Parcial2ArchivosIoniRodas.dir
+C:/Users/IONI RODAS/CLionProjects/Parcial2ArchivosIoniRodas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/IONI RODAS/CLionProjects/Parcial2ArchivosIoniRodas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

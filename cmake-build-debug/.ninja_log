@@ -1,0 +1,10 @@
+# ninja log v5
+4	207	7050912015166478	build.ninja	29f1f5c8e62877bd
+0	2111	7050912037197511	CMakeFiles/Parcial2ArchivosIoniRodas.dir/main.cpp.obj	5051bcd19aa8082f
+2117	2309	7050912039154885	Parcial2ArchivosIoniRodas.exe	193d82349f1ec5aa
+4	2156	7050912278240380	CMakeFiles/Parcial2ArchivosIoniRodas.dir/main.cpp.obj	5051bcd19aa8082f
+2157	2295	7050912279596394	Parcial2ArchivosIoniRodas.exe	193d82349f1ec5aa
+4	2122	7050912382735399	CMakeFiles/Parcial2ArchivosIoniRodas.dir/main.cpp.obj	5051bcd19aa8082f
+2122	2263	7050912384112061	Parcial2ArchivosIoniRodas.exe	193d82349f1ec5aa
+4	2118	7050913112868017	CMakeFiles/Parcial2ArchivosIoniRodas.dir/main.cpp.obj	5051bcd19aa8082f
+2119	2257	7050913114225144	Parcial2ArchivosIoniRodas.exe	193d82349f1ec5aa
