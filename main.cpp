@@ -2,8 +2,9 @@
 #include <windows.h>
 #include <filesystem>
 #include <fstream>
-namespace fs = std::filesystem;
 using namespace std;
+namespace fs = std::filesystem;
+
 void crear_archivos(int cantidad_archivos) {
     string directorio_destino;
     if (cantidad_archivos % 2 == 0) {
@@ -16,7 +17,9 @@ void crear_archivos(int cantidad_archivos) {
         string nombre_archivo = directorio_destino + "documento" + to_string(i) + ".txt";
         ofstream archivo(nombre_archivo);
         if (archivo.is_open()) {
-            archivo << "Este es el contenido del documento " << i;
+            for (int r = 1; r <= i; r++) {
+                archivo << "Esta es la línea " << r << " del documento, y cualquier otra cosa xd " << i << endl;
+            }
             archivo.close();
         } else {
             cerr << "No se pudo crear el archivo " << nombre_archivo << endl;
@@ -26,9 +29,8 @@ void crear_archivos(int cantidad_archivos) {
 
 int main() {
     int cantidad_archivos;
-    cout << "Cuantos archivos desea crear pa?" << endl;
+    cout << "Cuantos archivos desea crear paa?" << endl;
     cin >> cantidad_archivos;
     crear_archivos(cantidad_archivos);
     return 0;
 }
-
